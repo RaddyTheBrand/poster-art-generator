@@ -1,3 +1,6 @@
 ![Cover Bro](https://github.com/RaddyTheBrand/poster-art-generator/blob/master/cover.png)
 # Poster Art Generator
-This is an extremly simple demo of an poster art generator. The idea is that whatever is in our "Canvas" div element will be converted into a jpeg image and the user should be able to download it.
+This code is part of a YouTube tutorial. The demo is aimed to convert a html elements or "poster canvas" into a jpeg that can be downloaded. To make this happen I've used a JavaScript libary called html2canvas.
+
+[Link to YouTube Video](https://www.google.com)
+[Html2Canvas Link](https://html2canvas.hertzen.com/)
