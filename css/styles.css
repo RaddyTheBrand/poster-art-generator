@@ -1,9 +1,39 @@
-canvas {
-  width: 400px;
-  height: 400px;
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+body {
+  margin: 0;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  background-color: #272727;
 }
 
-#capture {
-  border-radius: 5px;
+section {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+section img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 700px;
+}
+
+section #capture {
+  background-color: burlywood;
+  position: relative;
+  font-size: 3em;
+  overflow: hidden;
+  height: 700px;
+  width: 600px;
+}
+
+section #capture #quote__text {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

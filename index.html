@@ -10,15 +10,28 @@
 </head>
 <body>
 
-    <div id="capture" style="padding: 10px; width: 200px; background: #f5da55">
-    <h4 style="color: #000; ">Hello world!</h4>
-    <img src="images/image-1.jpg" width="200">
-    <h1>Hello mate</h1>
-    </div>
+    <section>
 
-    <a id="download" download="poster.png">
-        <button type="button" onClick="download()">Download</button>
-    </a>
+        <div id="capture">
+            <h1 id="quote__text">
+                Start typing </br> :)
+            </h1>
+            <img src="images/jean-carlo-emer-1640677-unsplash.jpg">
+        </div>
+        <textarea></textarea>
+
+  
+        <button type="button" onClick="generate()">Generate</button>
+  
+        <a id="download" download="poster.png">
+            <button type="button" onClick="download()">Download</button>
+        </a>
+
+        <div id="render">
+            <h1>Render</h1>
+        </div>
+    </section>
+
 
     <script src="script.js"></script>
 </body>
